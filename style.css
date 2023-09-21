@@ -1,0 +1,83 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2014/05/27/23/32/matrix-356024_1280.jpg);
+    font-family: arial; 
+  }
+  #title{
+    text-align: center;
+    font-family: arial;
+    color: white;
+  }
+  #description{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+  }
+  label{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 19px;
+  }
+  form{
+    background-color: black;
+    opacity: 0.8;
+  -moz-opacity: 0.8;
+  filter: alpha(opacity=80);
+  -khtml-opacity: 0.8;
+  width: 500px;
+  height: 630px;
+  margin-left: 403px;
+  padding: 2.5rem 0.625rem;
+  }
+  .input-all {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    display: block;
+    margin-left: 50px;
+  }
+  input[type=radio]{
+    display: block;
+    margin: left;
+  }
+  input[type=checkbox]{
+    display: block;
+    margin: left;
+  }
+  .input-radio{
+    height: 110px;
+  }
+  .group input {
+    width: 400px;
+    height: 38px;
+    border-radius: 7px;
+    font-size: 18px;
+  }
+  .group label{
+    margin-top: 10px;
+  }
+  p{
+    font-size: 19px;
+  }
+  select{
+    width: 400px;
+    height: 38px;
+    border-radius: 7px;
+    font-size: 18px;
+  }
+  textarea{
+    width: 400px;
+    height: 100px;
+  }
+  button{
+      margin-top: 30px;
+      display: block;
+      width: 89%;
+      padding: 0.75rem;
+      background-color: rgba(0, 250, 150);
+      color: inherit;
+      border-radius: 3px;
+      cursor: pointer;
+  }
